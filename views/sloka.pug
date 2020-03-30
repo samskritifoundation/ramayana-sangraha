@@ -1,7 +1,7 @@
 extends layout
 
 block content
-  h1 Sankshepa Ramayana 
+  h1 Ramayana Sangraha 
   nav.nav
     form.form-inline(onsubmit="return confirm('Do you really want to delete?');" action='/delsloka/'+sloka._id, method='POST')
       a.btn.btn-info(href='/editsloka/'+sloka._id, role='button') Edit »
